@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mess"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:7:5-65
+11-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:7:22-62
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+12-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:8:22-63
+13    <uses-permission android:name="android.permission.FLASHLIGHT" />
+13-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:9:5-69
+13-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:9:22-66
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:11:5-60
+15-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:11:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:12:5-70
+16-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:12:19-67
+17
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:14:5-68
+18-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:14:22-65
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:15:5-80
+19-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:15:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:16:5-81
+20-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:16:22-78
+21    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+21-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:17:5-67
+21-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:17:22-64
+22    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.firebase:firebase-firestore:21.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/86b631f1c70696a269d880195a3ed85c/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+23-->[com.google.firebase:firebase-firestore:21.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/86b631f1c70696a269d880195a3ed85c/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:22-76
+24    <!--
+25 io.flutter.app.FlutterApplication is an android.app.Application that
+26         calls FlutterMain.startInitialization(this); in its onCreate method.
+27         In most cases you can leave this as-is, but you if you want to provide
+28         additional functionality it is fine to subclass or reimplement
+29         FlutterApplication and put your custom class here.
+30    -->
+31    <application
+31-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:8:5-29:19
+32        android:name="io.flutter.app.FlutterApplication"
+32-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:9:9-57
+33        android:allowBackup="true"
+33-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:20:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.1.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:18-86
+35        android:configChanges="orientation|keyboardHidden"
+35-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:21:9-59
+36        android:icon="@mipmap/ic_launcher"
+36-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:11:9-43
+37        android:label="mess"
+37-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:10:9-29
+38        android:screenOrientation="portrait"
+38-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:23:9-45
+39        android:supportsRtl="true"
+39-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:24:9-35
+40        android:theme="@style/Theme.AppCompat.NoActionBar"
+40-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:25:9-59
+41        android:windowSoftInputMode="stateAlwaysHidden" >
+41-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:26:9-56
+42        <activity
+42-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:12:9-23:20
+43            android:name="com.example.mess.MainActivity"
+43-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:13:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:16:13-163
+45            android:hardwareAccelerated="true"
+45-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:17:13-47
+46            android:launchMode="singleTop"
+46-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:14:13-43
+47            android:theme="@style/LaunchTheme"
+47-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:15:13-47
+48            android:windowSoftInputMode="adjustResize" >
+48-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:18:13-55
+49            <intent-filter>
+49-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:19:13-22:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:20:17-68
+50-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:20:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:21:17-76
+52-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:21:27-74
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:26:9-28:33
+60            android:name="flutterEmbedding"
+60-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:27:13-44
+61            android:value="2" />
+61-->/home/keshav11/Desktop/WorkSpace/Flutter/mess/android/app/src/main/AndroidManifest.xml:28:13-30
+62
+63        <service
+63-->[:firebase_auth] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[:firebase_auth] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:19.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/fbc2ab9de269a22a009eb9184ea8423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+67            <meta-data
+67-->[:firebase_auth] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+68-->[:firebase_auth] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-122
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_auth] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+70            <meta-data
+70-->[:cloud_firestore] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+71-->[:cloud_firestore] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-133
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:cloud_firestore] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+73            <meta-data
+73-->[:firebase_core] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+74-->[:firebase_core] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-123
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_core] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+77                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+77-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-firestore:21.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/86b631f1c70696a269d880195a3ed85c/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+80                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+80-->[com.google.firebase:firebase-firestore:21.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/86b631f1c70696a269d880195a3ed85c/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-firestore:21.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/86b631f1c70696a269d880195a3ed85c/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+82        </service>
+83
+84        <activity android:name="com.shinow.qrscan.SecondActivity" />
+84-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:27:9-69
+84-->[:qrscan] /home/keshav11/Desktop/WorkSpace/Flutter/mess/build/qrscan/intermediates/library_manifest/release/AndroidManifest.xml:27:19-66
+85        <activity
+85-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+86            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+86-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+87            android:excludeFromRecents="true"
+87-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+88            android:exported="true"
+88-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+89            android:launchMode="singleTask"
+89-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+90            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+90-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.firebase:firebase-auth:19.2.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+92
+93        <provider
+93-->[com.squareup.picasso:picasso:2.71828] /home/keshav11/.gradle/caches/transforms-2/files-2.1/0a192e25fff081856b390c90f34427ad/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+94            android:name="com.squareup.picasso.PicassoProvider"
+94-->[com.squareup.picasso:picasso:2.71828] /home/keshav11/.gradle/caches/transforms-2/files-2.1/0a192e25fff081856b390c90f34427ad/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+95            android:authorities="com.example.mess.com.squareup.picasso"
+95-->[com.squareup.picasso:picasso:2.71828] /home/keshav11/.gradle/caches/transforms-2/files-2.1/0a192e25fff081856b390c90f34427ad/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+96            android:exported="false" />
+96-->[com.squareup.picasso:picasso:2.71828] /home/keshav11/.gradle/caches/transforms-2/files-2.1/0a192e25fff081856b390c90f34427ad/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+97
+98        <activity
+98-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] /home/keshav11/.gradle/caches/transforms-2/files-2.1/99969420c16374d0103bf43c7033b23d/android-zxingLibrary-0.1.2-PRE/AndroidManifest.xml:14:9-19:63
+99            android:name="com.uuzuche.lib_zxing.activity.CaptureActivity"
+99-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] /home/keshav11/.gradle/caches/transforms-2/files-2.1/99969420c16374d0103bf43c7033b23d/android-zxingLibrary-0.1.2-PRE/AndroidManifest.xml:15:13-74
+100            android:configChanges="orientation|keyboardHidden"
+100-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] /home/keshav11/.gradle/caches/transforms-2/files-2.1/99969420c16374d0103bf43c7033b23d/android-zxingLibrary-0.1.2-PRE/AndroidManifest.xml:16:13-63
+101            android:screenOrientation="portrait"
+101-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] /home/keshav11/.gradle/caches/transforms-2/files-2.1/99969420c16374d0103bf43c7033b23d/android-zxingLibrary-0.1.2-PRE/AndroidManifest.xml:17:13-49
+102            android:theme="@style/Theme.AppCompat.NoActionBar"
+102-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] /home/keshav11/.gradle/caches/transforms-2/files-2.1/99969420c16374d0103bf43c7033b23d/android-zxingLibrary-0.1.2-PRE/AndroidManifest.xml:18:13-63
+103            android:windowSoftInputMode="stateAlwaysHidden" />
+103-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] /home/keshav11/.gradle/caches/transforms-2/files-2.1/99969420c16374d0103bf43c7033b23d/android-zxingLibrary-0.1.2-PRE/AndroidManifest.xml:19:13-60
+104
+105        <provider
+105-->[com.google.firebase:firebase-common:19.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/fbc2ab9de269a22a009eb9184ea8423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+106            android:name="com.google.firebase.provider.FirebaseInitProvider"
+106-->[com.google.firebase:firebase-common:19.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/fbc2ab9de269a22a009eb9184ea8423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+107            android:authorities="com.example.mess.firebaseinitprovider"
+107-->[com.google.firebase:firebase-common:19.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/fbc2ab9de269a22a009eb9184ea8423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:19.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/fbc2ab9de269a22a009eb9184ea8423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:19.3.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/fbc2ab9de269a22a009eb9184ea8423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:17.1.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:17.1.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:17.1.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:17.1.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+115
+116        <meta-data
+116-->[com.google.android.gms:play-services-basement:17.0.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/81e104d17de1cdfced62126fae90fe59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+117            android:name="com.google.android.gms.version"
+117-->[com.google.android.gms:play-services-basement:17.0.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/81e104d17de1cdfced62126fae90fe59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+118            android:value="@integer/google_play_services_version" />
+118-->[com.google.android.gms:play-services-basement:17.0.0] /home/keshav11/.gradle/caches/transforms-2/files-2.1/81e104d17de1cdfced62126fae90fe59/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+119    </application>
+120
+121</manifest>
